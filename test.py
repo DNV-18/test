@@ -19,4 +19,4 @@ def Dijkstra(Graph, start):
     return shortest_paths
 
 
-print(12)
+print(1)
