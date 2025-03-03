@@ -17,6 +17,3 @@ def Dijkstra(Graph, start):
                 shortest_paths[neighbor] = current_distance + weight  # 更新最短路径
                 heapq.heappush(small_heap, (neighbor, current_distance + weight))  # 加入待处理队列
     return shortest_paths
-
-
-print(123)
